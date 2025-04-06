@@ -1,0 +1,120 @@
+/* Navbar.css */
+.navbar-container {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+  padding: 2.5rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  padding: 0 1rem;
+}
+
+.mentor-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #facc15;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.text-info {
+  max-width: 600px;
+  text-align: center;
+}
+
+.name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  color: #cbd5e1;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.about {
+  font-size: 1.05rem;
+  color: #94a3b8;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center; /* Ensures centered alignment */
+  gap: 1rem; /* Equal spacing between all items */
+  padding-top: 1.5rem;
+  flex-wrap: wrap; /* Allows wrapping to next line if the space is constrained */
+  border: 2px solid #1e40af; /* Adding border around navbar links */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #1e293b; /* Slight dark background to match */
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.project-links,
+.external-links {
+  display: flex;
+  gap: 1rem; /* Space between buttons */
+}
+
+.project-link,
+.external-link-btn {
+  color: #facc15;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  background-color: #1e40af;
+  border-radius: 0.5rem;
+  border: 2px solid #1e40af; /* Border around buttons */
+  transition: all 0.3s ease;
+}
+
+.project-link:hover,
+.external-link-btn:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+  border-color: #1d4ed8; /* Border color changes on hover */
+}
+
+.external-link-btn {
+  color: #facc15;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  background-color: #1e40af;
+  border-radius: 0.5rem;
+  border: 2px solid #1e40af; /* Border around buttons */
+  transition: all 0.3s ease;
+}
+
+.external-link-btn:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+  border-color: #1d4ed8; /* Border color changes on hover */
+}
+
+.contact-button {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  gap: 1rem; /* Space between buttons */
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+  text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+/* src/App.css */
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App .content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.App .content h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-top: 2rem;
+}
