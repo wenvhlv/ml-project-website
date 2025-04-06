@@ -38,7 +38,7 @@ function Home() {
       {/* Skills Section */}
       <section className="section light">
         <div className="content left">
-          <h2>Technical Skills</h2>
+          <h2>Technical Skills:</h2>
           <ul>
             <li><strong>Programming Languages:</strong> C, C++, Python, SQL</li>
             <li><strong>Libraries & Frameworks:</strong> NumPy, Pandas, Matplotlib, Seaborn, SciPy, Scikit-learn, PyTorch, TensorFlow</li>
