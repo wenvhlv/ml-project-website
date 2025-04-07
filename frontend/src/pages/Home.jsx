@@ -1,15 +1,19 @@
 // Home.jsx
 import React from 'react';
 import './Home.css';
+import RakutenImg from './rakuten-collage.png';
+import IITImg from './iitcollege-collage.png';
+import RakutenWork from './RakutenWork.jpg';
+import MySelf from './myself.jpg';
 
 function Home() {
   return (
     <div className="home-container">
-       <h1 class="head">Learn More About Me!</h1>
+       <h1 class="head">🧑‍💻 Learn More About Me!</h1>
       {/* Intro Section */}
       <section className="section light">
         <div className="content left">
-          <h2>Current Position</h2>
+          <h2>🌐 Current Position</h2>
           <ul>
             <li>Software Engineer at <strong>Rakuten Group Inc. Tokyo, Japan</strong>.</li>
             <li>Email ID: <a href="mailto:hlvcse@gmail.com">hlvcse@gmail.com</a></li> 
@@ -18,13 +22,14 @@ function Home() {
             <li>Contact: +918287648766(Whatsapp Only), +817083110880(Call)</li>
           </ul>
         </div>
-        <div className="image right">[Image Here]</div>
+        <div className="image right"><img src={RakutenWork} alt="Description" className="image-style"/></div>
       </section>
 
       {/* Education Section */}
       <section className="section blue">
+      <div className="image right"><img src={IITImg} alt="Description" className="image-style2"/></div>
         <div className="content left">
-          <h2>Educational Qualifications</h2>
+          <h2>🎓 Educational Qualifications</h2>
           <ul>
             <li><strong>M.Tech(CSE)</strong> from <strong>IIT Ropar</strong>, CGPA : 7.38/10, Year:2021-23</li>
             <li><strong>B.Tech(CSE)</strong> from <strong>NIT Manipur</strong>, CGPA : 8.41/10, Year:2015-19</li>
@@ -32,13 +37,12 @@ function Home() {
             <li>Highschool(Class 12th), Science- UP Board, Percentage:77.50%, Year:2011</li>
           </ul>
         </div>
-        <div className="image right">[Image Here]</div>
       </section>
 
       {/* Skills Section */}
       <section className="section light">
         <div className="content left">
-          <h2>Technical Skills:</h2>
+          <h2>🛠️ Technical Skills:</h2>
           <ul>
             <li><strong>Programming Languages:</strong> C, C++, Python, SQL</li>
             <li><strong>Libraries & Frameworks:</strong> NumPy, Pandas, Matplotlib, Seaborn, SciPy, Scikit-learn, PyTorch, TensorFlow</li>
@@ -47,13 +51,14 @@ function Home() {
             <li><strong>Domains & Expertise:</strong> Machine Learning, Deep Learning, DevOps, Web Development</li>
             </ul>
         </div>
-        <div className="image right">[Image Here]</div>
+        <div className="image right"><img src={MySelf} alt="Description" className="image-myself"/></div>
       </section>
 
       {/* Experience Section */}
       <section className="section blue">
+      <div className="image right"><img src={RakutenImg} alt="Description" className="image-style2"/></div>
         <div className="content left">
-          <h2>Working Experience</h2>
+          <h2>🏢 Working Experience</h2>
           <h3>DevOps Engineer – Rakuten Group Inc. Tokyo, Japan</h3>
           <ul>
             <li>Jan 2024 – Present</li>
@@ -61,13 +66,12 @@ function Home() {
             <li>Tools& Technologies: Python, Linux, Azure, KQL, Chef, Ruby, Jenkins, Docker, Kubernetes, Jira, Confluence, DOMO- Data Visualization.</li>
             </ul>
         </div>
-        <div className="image right">[Image Here]</div>
       </section>
 
       {/* Internship Section */}
       <section className="section light">
         <div className="content left">
-          <h2>Internship Project</h2>
+          <h2>🕸️ Internship Project</h2>
           <h3>Human Posture Detection – MNNIT Allahabad</h3>
           <ul>
             <li>May–July 2018</li>
@@ -79,7 +83,7 @@ function Home() {
       </section>
 
       
-      <h1 class="project-head">Major Projects</h1>
+      <h1 class="project-head">💻 Major Projects</h1>
       {/* Projects Section */}
       <section className="project-section">
         <div className="project-left">
@@ -128,6 +132,7 @@ function Home() {
       <footer className="footer">
         <div className="footer-content">
             <div className="footer-links"> 
+            <a href="https://www.youtube.com/@iitjeemathx" target="_blank" rel="noopener noreferrer">Youtube</a>
             <a href="https://github.com/hlvcse" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/hlvcse/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="mailto:hlvcse@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>

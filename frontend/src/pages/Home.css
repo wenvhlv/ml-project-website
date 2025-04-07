@@ -23,6 +23,8 @@
   
   .light {
     background-color: #ffffff;
+    border-radius: 10px;
+    border-color: #95cef4;
   }
   
   .blue {
@@ -36,17 +38,29 @@
   
   .image {
     flex: 1;
-    min-width: 250px;
-    height: 220px;
-    background-color: #cbd5e1;
-    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #475569;
-    font-weight: 500;
+    font-weight: 600;
   }
-  
+  .image-style{
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    justify-content: center; 
+  }
+  .image-style2{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center; 
+  }
+  .image-myself{
+    width: 380px;
+    height: 500px;
+    align-items: center;
+    justify-content: center; 
+  }
   h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
