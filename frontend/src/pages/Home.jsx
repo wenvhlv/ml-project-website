@@ -5,6 +5,7 @@ import RakutenImg from './rakuten-collage.png';
 import IITImg from './iitcollege-collage.png';
 import RakutenWork from './RakutenWork.jpg';
 import MySelf from './myself.jpg';
+import InternImg from './internship.jpg';
 
 function Home() {
   return (
@@ -79,7 +80,7 @@ function Home() {
             <li>Tools& Technologies: Python, OpenCV, Scikit-learn, Matplotlib, Machine Learning, Image Processing, Computer Vision.</li>
             </ul>
         </div>
-        <div className="image right">[Image Here]</div>
+        <div className="image right"><img src={InternImg} alt="Description" className="image-style2"/></div>
       </section>
 
       
